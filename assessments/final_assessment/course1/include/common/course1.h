@@ -40,7 +40,7 @@
  *
  * @return void
  */
-void course1(void);
+int8_t course1();
 
 /**
  * @brief function to run course1 data operations

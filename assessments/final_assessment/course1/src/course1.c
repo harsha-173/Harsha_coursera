@@ -321,7 +321,7 @@ int8_t test_reverse()
   return ret;
 }
 
-void course1(void) 
+int8_t course1() 
 {
   uint8_t i;
   int8_t failed = 0;
@@ -346,4 +346,6 @@ void course1(void)
   PRINTF("  PASSED: %d / %d\n", (TESTCOUNT - failed), TESTCOUNT);
   PRINTF("  FAILED: %d / %d\n", failed, TESTCOUNT);
   PRINTF("--------------------------------\n");
+
 }
+
