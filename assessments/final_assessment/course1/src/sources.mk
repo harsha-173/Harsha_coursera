@@ -24,7 +24,7 @@ SOURCES = main.c \
 					course1.c \
 					interrupts_msp432p401r_gcc.c \
 					startup_msp432p401r_gcc.c \
-					ystem_msp432p401r.c
+					system_msp432p401r.c
 endif
 					
 # Add your include paths to this variable
